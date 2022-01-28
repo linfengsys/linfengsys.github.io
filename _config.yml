@@ -1,0 +1,47 @@
+# Site settings
+title: CatKang的博客
+email: beijingwangkang@hotmail.com
+description: Out of three sounds he frame, not a fourth sound, but a star
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: http://catkang.github.io/
+rss_url: /pages/feed.xml
+author: Kang Wang
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'category'
+recent_num: 20
+
+# Social account
+zhihu: cat_kang
+github: CatKang
+linkedin: kang-wang-b0357072
+stackoverflow: 2682705/catkang
+
+# avatar and Favicon
+avatar: https://avatars2.githubusercontent.com/u/4082238?v=3&s=460
+favicon: https://avatars2.githubusercontent.com/u/4082238?v=3&s=460
+
+# disqus config
+disqus:
+  shortname: kangcat
+
+# google analytics config
+ga:
+  id: UA-77540729-2
+
+# Build settings
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+highlighter: rouge
+mathjax: disabled
+sass:
+  style: compressed
+
+# Jekyll Plugin
+# https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
